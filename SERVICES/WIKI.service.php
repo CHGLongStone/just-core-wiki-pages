@@ -4,13 +4,13 @@
  * 
  * 
  * @author	Jason Medland<jason.medland@gmail.com>
- * @package	SERVICE\UI\WIKI
+ * @package	JCORE\SERVICE\UI\WIKI
  * 
  */
  
  
 
-namespace SERVICE\UI\WIKI;
+namespace JCORE\SERVICE\UI\WIKI;
 
 use JCORE\TRANSPORT\SOA\SOA_BASE as SOA_BASE;
 use JCORE\DAO\DAO as DAO;
@@ -19,7 +19,7 @@ use JCORE\DAO\DAO as DAO;
 /**
  * Class WIKI
  *
- * @package SERVICE\UI\WIKI
+ * @package JCORE\SERVICE\UI\WIKI
 */
 class WIKI { 
 	/** 
