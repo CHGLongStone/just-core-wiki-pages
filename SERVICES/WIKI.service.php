@@ -97,10 +97,10 @@ class WIKI {
 		if(!isset($args["namespace"])){
 			
 		}
-		echo __METHOD__.'@'.__LINE__.'$GLOBALS["route"]<pre>['.var_export($GLOBALS["route"], true).']</pre>'.'<br>'.PHP_EOL;
+		#echo __METHOD__.'@'.__LINE__.'$GLOBALS["route"]<pre>['.var_export($GLOBALS["route"], true).']</pre>'.'<br>'.PHP_EOL;
 		$segments = explode('/',$GLOBALS["route"]);
-		echo __METHOD__.'@'.__LINE__.'$segments<pre>['.var_export($segments, true).']</pre>'.'<br>'.PHP_EOL;
 		/**
+		echo __METHOD__.'@'.__LINE__.'$segments<pre>['.var_export($segments, true).']</pre>'.'<br>'.PHP_EOL;
 		echo __METHOD__.'@'.__LINE__.'$this->cfg<pre>['.var_export($this->cfg, true).']</pre>'.'<br>'.PHP_EOL;
 		*/
 		
